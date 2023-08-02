@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    background-image: url("diner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(120, 124, 113);
+    position: relative;
+    font-size: 10vw;
+    background-color: rgba(185, 105, 49, 0.614);
+    width: 100%;
+}
+
+
+ul {
+    list-style: none;
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: ;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    
+}
+
+li:hover {
+    background-color: rgba(196, 115, 57, 0.634);
+    width: fit-content;
+    color: rgb(167, 75, 167)
+}
+
+li {
+    background-color: rgba(214, 165, 85, 0.448);
+    width: fit-content;
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 100%;
+    position: absolute;
+    right: 10px;
+    top: 400px;
+    opacity: 0.5;
+}
