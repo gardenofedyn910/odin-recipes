@@ -67,9 +67,10 @@ ul {
     color: rgb(215, 188, 215);
     position: relative;
     left: 680px;
-    list-style: none;
     border-radius: 5px;
     font-size: 1.2vw;
+    list-style-position: outside;
+    list-style: ;
 
 }
 
