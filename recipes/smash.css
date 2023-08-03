@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    background-image: url("diner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(215, 188, 215);
+    position: relative;
+    font-size: 3vw;
+    background-color: rgba(185, 105, 49, 0.614);
+    width: 100%;
+}
+
+img {
+    position: relative;
+    left: 450px;
+    border-radius: 5px;
+    border: double;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 492px;
+    position: relative;
+    background-color: rgb(185, 106, 49);
+    width: fit-content;
+    font-size: 1vw;
+    color:  rgb(215, 188, 215);
+}
+
+button:hover {
+    transition-duration: 0.4;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(215, 188, 215);
+    position: relative;
+    font-size: 2vw;
+    background-color: rgb(185, 106, 49);
+    width: fit-content;
+    left: 650px;
+    border-radius: 5px;
+}
+
+ul {
+    background-color: rgba(185, 106, 49, 0.758);
+    height: 90px;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(215, 188, 215);
+    position: relative;
+    left: 680px;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    list-style-position: outside;
+    list-style: ;
+
+}
+
+ol {
+    background-color: rgba(185, 106, 49, 0.823);
+    width: fit-content;
+    text-align: center;
+    left: 0px;
+    position: relative;
+    color: rgb(215, 188, 215);
+    list-style-position: inside;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
