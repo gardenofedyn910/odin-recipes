@@ -10,6 +10,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    
 }
 
 h1 {
@@ -30,6 +31,7 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     padding-bottom: 5px;
+    background-color: rgba(185, 105, 49, 0.614);
     
 }
 
